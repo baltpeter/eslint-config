@@ -1,0 +1,40 @@
+{
+    "name": "@baltpeter/eslint-config",
+    "version": "0.0.0",
+    "description": "The ESLint configs Benjamin Altpeter uses in his projects.",
+    "author": "Benjamin Altpeter <hi@bn.al>",
+    "keywords": [
+        "eslint",
+        "eslintconfig"
+    ],
+    "license": "CC0-1.0",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/baltpeter/eslint-config.git"
+    },
+    "bugs": {
+        "url": "https://github.com/baltpeter/eslint-config/issues"
+    },
+    "main": "index.js",
+    "files": [
+        "index.js",
+        ".eslintrc-*.json"
+    ],
+    "scripts": {
+        "test": "echo 'TODO: No test specified yet.'"
+    },
+    "dependencies": {
+        "@typescript-eslint/parser": "^5.48.0",
+        "eslint-config-prettier": "^8.6.0"
+    },
+    "peerDependencies": {
+        "@typescript-eslint/eslint-plugin": "^5.48.0",
+        "eslint": ">= 8",
+        "eslint-plugin-eslint-comments": "^3.2.0",
+        "eslint-plugin-import": "^2.26.0",
+        "typescript": "^4.9.4"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
+}
