@@ -12,7 +12,51 @@
         "prettier"
     ],
     "rules": {
-        "@typescript-eslint/no-unused-vars": ["error", { "args": "none" }]
+        "@typescript-eslint/no-unused-vars": ["error", { "args": "none" }],
+
+        "no-constant-binary-expression": "error",
+        "no-constructor-return": "error",
+        "no-promise-executor-return": "error",
+        "no-self-compare": "error",
+        "no-unreachable-loop": "error",
+        "no-unused-private-class-members": "error",
+        "require-atomic-updates": "error",
+
+        "camelcase": ["error"],
+        "dot-notation": "error",
+        "eqeqeq": "error",
+        "func-name-matching": "error",
+        "guard-for-in": "error",
+        "arrow-body-style": ["error", "as-needed"],
+        "no-array-constructor": "error",
+        "no-else-return": "error",
+        "no-eval": "error",
+        "no-extend-native": "error",
+        "no-implicit-globals": "error",
+        "no-implied-eval": "error",
+        "no-labels": "error",
+        "no-multi-assign": "error",
+        "no-return-assign": "error",
+        "no-throw-literal": "error",
+        "no-unneeded-ternary": "error",
+        "no-useless-computed-key": "error",
+        "no-useless-return": "error",
+        "no-var": "error",
+        "object-shorthand": ["error", "consistent"],
+        "radix": "error",
+        "spaced-comment": "error",
+        "yoda": "error",
+
+        "@typescript-eslint/consistent-type-assertions": "error",
+        "@typescript-eslint/consistent-type-imports": "error",
+        "@typescript-eslint/no-useless-empty-export": "error",
+        "@typescript-eslint/no-var-requires": "error",
+        "@typescript-eslint/prefer-function-type": "error",
+        "@typescript-eslint/prefer-optional-chain": "error",
+        "@typescript-eslint/prefer-ts-expect-error": "error",
+        "@typescript-eslint/unified-signatures": "error",
+
+        "@typescript-eslint/default-param-last": "error"
     },
     "ignorePatterns": ["/dist/"]
 }
