@@ -42,7 +42,6 @@
         "no-useless-computed-key": "error",
         "no-useless-return": "error",
         "no-var": "error",
-        "object-shorthand": ["error", "consistent"],
         "radix": "error",
         "spaced-comment": "error",
         "yoda": "error",
