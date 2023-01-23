@@ -1,6 +1,6 @@
 {
     "name": "@baltpeter/eslint-config",
-    "version": "2.0.0",
+    "version": "2.1.0",
     "description": "The ESLint configs Benjamin Altpeter uses in his projects.",
     "author": "Benjamin Altpeter <hi@bn.al>",
     "keywords": [
