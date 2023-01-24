@@ -47,7 +47,6 @@
 
         "@typescript-eslint/consistent-type-assertions": "error",
         "@typescript-eslint/consistent-type-imports": "error",
-        "@typescript-eslint/dot-notation": "error",
         "@typescript-eslint/no-useless-empty-export": "error",
         "@typescript-eslint/no-var-requires": "error",
         "@typescript-eslint/prefer-function-type": "error",
