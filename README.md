@@ -32,7 +32,7 @@ Then, add the following to your `.eslintrc`:
 Install this config and its peer dependencies:
 
 ```sh
-yarn add --dev @baltpeter/eslint-config eslint @typescript-eslint/eslint-plugin eslint-plugin-eslint-comments eslint-plugin-import eslint-plugin-jsx-a11y eslint-config-preact typescript
+yarn add --dev @baltpeter/eslint-config eslint @typescript-eslint/eslint-plugin eslint-plugin-eslint-comments eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-react-hooks typescript
 ```
 
 Then, add the following to your `.eslintrc`:

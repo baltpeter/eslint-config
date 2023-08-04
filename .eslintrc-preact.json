@@ -1,7 +1,37 @@
 {
     "$schema": "https://json.schemastore.org/eslintrc",
-    "extends": ["preact", "plugin:jsx-a11y/recommended", "./index"],
+    "extends": ["plugin:jsx-a11y/recommended", "./index"],
+    "plugins": ["react", "react-hooks"],
+    "env": {
+        "browser": true
+    },
+    "globals": {
+        "browser": true
+    },
+    "settings": {
+        "react": {
+            "pragma": "h",
+            "version": "16.0"
+        }
+    },
     "rules": {
+        "react/no-deprecated": "error",
+        "react/jsx-no-comment-textnodes": "error",
+        "react/jsx-no-duplicate-props": "error",
+        "react/jsx-no-target-blank": "error",
+        "react/jsx-no-undef": "error",
+        "react/jsx-tag-spacing": ["error", { "beforeSelfClosing": "always" }],
+        "react/jsx-uses-vars": "error",
+        "react/self-closing-comp": "error",
+        "react/prefer-es6-class": "error",
+        "react/prefer-stateless-function": "error",
+        "react/require-render-return": "error",
+        "react/no-danger": "error",
+        "react/no-did-mount-set-state": "error",
+        "react/no-did-update-set-state": "error",
+        "react/no-find-dom-node": "error",
+        "react/no-is-mounted": "error",
+        "react/no-string-refs": "error",
         "react/jsx-key": "off",
         "react/jsx-no-bind": [
             "error",
@@ -12,14 +42,8 @@
             }
         ],
         "react/no-unknown-property": ["error", { "ignore": ["for"] }],
-        "react-hooks/exhaustive-deps": "error",
 
-        "jest/expect-expect": "off",
-        "jest/valid-expect-in-promise": "off",
-        "jest/valid-expect": "off",
-        "jest/valid-title": "off"
-    },
-    "settings": {
-        "jest": { "version": "n/a" }
+        "react-hooks/rules-of-hooks": "error",
+        "react-hooks/exhaustive-deps": "error"
     }
 }
