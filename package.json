@@ -18,6 +18,7 @@
     "main": "index.js",
     "files": [
         "index.js",
+        "preact.js",
         ".eslintrc-*.json"
     ],
     "scripts": {
@@ -32,6 +33,9 @@
         "eslint": ">= 8",
         "eslint-plugin-eslint-comments": "^3.2.0",
         "eslint-plugin-import": "^2.26.0",
+        "eslint-plugin-jsx-a11y": "^6.7.1",
+        "eslint-plugin-react": "^7.33.1",
+        "eslint-plugin-react-hooks": "^4.6.0",
         "typescript": "^4.9.4"
     },
     "publishConfig": {

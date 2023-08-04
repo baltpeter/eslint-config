@@ -16,6 +16,7 @@
 
         "no-constant-binary-expression": "error",
         "no-constructor-return": "error",
+        "no-duplicate-imports": "off",
         "no-promise-executor-return": "error",
         "no-self-compare": "error",
         "no-unreachable-loop": "error",
