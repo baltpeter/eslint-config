@@ -8,6 +8,10 @@ TODO: ESLint's new [flat config system](https://eslint.org/blog/2022/08/new-conf
 
 ## Usage
 
+This package provides different configs for different use cases.
+
+## General
+
 Install this config and its peer dependencies:
 
 ```sh
@@ -20,5 +24,22 @@ Then, add the following to your `.eslintrc`:
 {
     "root": true,
     "extends": ["@baltpeter/eslint-config"]
+}
+```
+
+## Preact
+
+Install this config and its peer dependencies:
+
+```sh
+yarn add --dev @baltpeter/eslint-config eslint @typescript-eslint/eslint-plugin eslint-plugin-eslint-comments eslint-plugin-import eslint-plugin-jsx-a11y eslint-config-preact typescript
+```
+
+Then, add the following to your `.eslintrc`:
+
+```json
+{
+    "root": true,
+    "extends": ["@baltpeter/eslint-config/preact"]
 }
 ```

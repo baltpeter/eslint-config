@@ -1,0 +1,25 @@
+{
+    "$schema": "https://json.schemastore.org/eslintrc",
+    "extends": ["preact", "plugin:jsx-a11y/recommended", "./index"],
+    "rules": {
+        "react/jsx-key": "off",
+        "react/jsx-no-bind": [
+            "error",
+            {
+                "allowArrowFunctions": true,
+                "allowBind": false,
+                "ignoreRefs": true
+            }
+        ],
+        "react/no-unknown-property": ["error", { "ignore": ["for"] }],
+        "react-hooks/exhaustive-deps": "error",
+
+        "jest/expect-expect": "off",
+        "jest/valid-expect-in-promise": "off",
+        "jest/valid-expect": "off",
+        "jest/valid-title": "off"
+    },
+    "settings": {
+        "jest": { "version": "n/a" }
+    }
+}
